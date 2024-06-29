@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dreamy Cafe</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Web Development">
+    <meta name="keywords" content="ILC_Web Development">
+    <meta name="author"
+        content="Do Nguyen Khai Nguyen, Hau Linh Chi, Dao Khanh Nga Thi, Lo Tuan Hung, Nguyen Vu Duy Minh">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/f73039f1ad.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav>
+                <div class="rowing">
+                    <div class="nav-row">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.jpg" alt="Dreamy-cafe's logo" /></a>
+                        </div>
+                        <div class="naviga-bar">
+                            <div class="none-block">
+                            </div>
+                            <div class="personal">
+                                <div class="p-items">
+                                    <ul>
+                                        <li class="navi-option"><a href="index.html"><i
+                                                    class="fa-solid fa-house"></i></a></li>
+                                        <li class="navi-option"><a href="menu.html">Menu</a></li>
+                                        <li class="navi-option"><a href="order.html"><i
+                                                    class="fa-solid fa-cart-shopping"></i></a></li>
+                                        <li class="navi-option"><a href="registration.html"><i
+                                                    class="fas fa-user"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="menu">
+            <h1>MENU</h1>
+        </div>
+
+        <div class="product-div">
+            <img class="product-img" src="images/coffee.jpg">
+        </div>
+
+        <div>
+            <h2 class="item-name">ITEM NAME</h2>
+            <h2 class="item-price">$$$</h2>
+        </div>
+
+        <div>
+            <p class="item-description">
+                Description here description here description here description here description here description here
+                description here description here description here description here description here description here
+            </p>
+        </div>
+
+        <div>
+            <p class="quantity-title" id="quantity-title-2">
+                Quantity:
+            </p>
+        </div>
+        <div class="quantity-form" id="quantity-form-2">
+            <form id='quantity-counter' method='POST' class='quantity' action='#'>
+                <input type='button' value='-' class='qtyminus minus' field='quantity' />
+                <input type='text' name='quantity' value='0' class='qty' />
+                <input type='button' value='+' class='qtyplus plus' field='quantity' />
+            </form>
+        </div>
+
+        <div class="add-to-cart" id="add-to-cart-2">
+            <a href="#" class="add-to-cart-item-page">ADD TO CART</a>
+        </div>
+
+        <div class="back-to-menu">
+            <p class="back-to-menu-button"><i class="fa-solid fa-caret-left"></i> Back to menu</p>
+        </div>
+    </main>
+    <footer>
+        <img src="images/logo.jpg" alt="Logo">
+
+        <h3>DREAMY CAFE</h3>
+        <p>Slogan here</p>
+
+        <ul>
+            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+        <p>&copy 2022 Dreamy Cafe. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
