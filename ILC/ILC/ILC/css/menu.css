@@ -1,0 +1,53 @@
+body {
+    background-color: #FFEDDB;
+}
+
+.objects {
+    margin-left: 5%;
+    width: auto;
+}
+
+.lis_menu {
+    overflow: auto;
+    margin: none;
+}
+
+.lis_1 {
+    margin: 2em;
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    border: solid 1px;
+}
+
+.lis_2 {
+    margin: 2em;
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    border: solid 1px;
+}
+
+.object-center {
+    float: left;
+    width: 40%;
+}
+
+.product_detail {
+    text-align: center;
+}
+
+.product_name {
+    
+    margin-left: 45%;
+    padding-top: 10%;
+}
+
+.details {
+    padding: 5px 30px 5px 30px;
+    border-radius: 10%;
+    background-color: #edcdbb;
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+}
